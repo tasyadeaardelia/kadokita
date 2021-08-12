@@ -30,6 +30,7 @@ class CreateUsersTable extends Migration
             $table->enum('gender', ['male', 'female'])->nullable();
             $table->string('account_number')->nullable();
             $table->string('id_card')->nullable();
+            $table->string('npwp')->nullable();
             $table->rememberToken();
             $table->timestamps();
 
